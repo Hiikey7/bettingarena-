@@ -1,0 +1,201 @@
+<style> 
+.uppergrid {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 1fr;
+  background-color: whitesmoke;
+  height: 120px;
+  border: 0.5px solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  
+
+}
+.betting{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  color: black;
+}
+
+.dropbtn {  
+  
+  justify-content: right;
+  background-color: black;
+color: black;  
+padding: 7px;  
+font-size: 15px;  
+border-radius: 3px;
+
+}  
+.dropdown{  
+display: inline-block;  
+position:relative;
+
+}  
+.dropdown-content {  
+position: absolute;
+
+top:1PX ;
+right: 5px;
+background-color: white;  
+border-radius: 3px;
+border-width: 2px;
+min-width: 200px;  
+display: none;  
+
+
+}  
+.dropdown-content a {  
+color: black;  
+padding: 12px 10px;  
+text-decoration: none;  
+display: block;  
+font-size: 20px;
+font-weight: 300;
+border-radius: 3px;
+}  
+.dropdown-content a:hover {  
+background-color: orange;  
+cursor: pointer;
+}  
+.dropdown:hover .dropdown-content {  
+display: block;  
+}  
+.dropdown:hover .dropbtn {  
+background-color: grey;  
+}  
+.home{
+width: 35px;
+height: 5px;
+background-color:white ;
+margin: 6px 0;
+}
+.main{
+display: grid;
+  align-content: center;
+  grid-template-columns: 1fr;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  height: 1fr;
+  border: 0.5px solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+}
+.tips{ 
+margin-top: 50px;
+margin-bottom: 50px;
+display: grid;
+justify-content: center;
+
+}
+
+.image {
+opacity: 1;
+display: block;
+transition: .5s ease;
+backface-visibility: hidden;
+
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.tips:hover .image {
+opacity: 0.3;
+}
+
+.tips:hover .middle {
+opacity: 1;
+margin-left: 250px;
+
+
+}
+
+
+.text {
+background-color: orange;
+border-radius: 5px;
+color: white;
+font-size: 20px;
+padding: 16px 32px;
+
+}
+.title{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 30px;
+
+}
+.advert{
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+justify-content: center;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 150px 150px 150px 150px;
+    margin-left: 100px;
+    margin-right: 150px;
+    background-color:whitesmoke;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .advert{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      border-radius: 5px;
+  }
+  .main{
+      display: grid;
+              align-content: center;
+              grid-template-columns: 1fr;
+              background-color: whitesmoke;
+              margin-top: 30px;
+              height: 1fr;
+              border: 0.5px solid;
+              border-radius: 5px;
+              border-width: 1px;
+              border-color: black;
+  }
+  .title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 30px;
+
+}
+
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+
+}
+</style>
